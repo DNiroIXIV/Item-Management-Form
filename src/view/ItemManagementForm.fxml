@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ItemManagementFormController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="700.0" opacity="0.56" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../images/home-page-background.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#7a505075" height="578.0" layoutX="107.0" layoutY="157.0" opacity="0.32" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="510.0" AnchorPane.bottomAnchor="65.0" AnchorPane.leftAnchor="107.0" AnchorPane.rightAnchor="83.0" AnchorPane.topAnchor="157.0" />
+      <Rectangle arcHeight="40.0" arcWidth="40.0" fill="#841f1fe3" height="73.0" layoutX="82.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="537.0" />
+      <Label alignment="CENTER" layoutX="107.0" layoutY="61.0" prefHeight="43.0" prefWidth="488.0" text="Fashionista Inventory" textFill="WHITE">
+         <font>
+            <Font name="Monospaced Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="200.0" layoutY="347.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #303952; -fx-background-radius: 30; -fx-border-width: 4; -fx-border-color: linear-gradient(from 96.9582% 0.0% to 96.9582% 66.1597%, #526f9c 0.0%, #526f9c 0.6729%, #4a658c 21.8147%, #223048 100.0%); -fx-border-radius: 30;" text="View Items" textFill="WHITE" AnchorPane.bottomAnchor="393.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.79999999999995" AnchorPane.topAnchor="347.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="200.0" layoutY="463.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #303952; -fx-background-radius: 30; -fx-border-width: 4; -fx-border-color: linear-gradient(from 96.9582% 0.0% to 96.9582% 66.1597%, #526f9c 0.0%, #526f9c 0.6729%, #4a658c 21.8147%, #223048 100.0%); -fx-border-radius: 30;" text="Remove Item" textFill="WHITE" AnchorPane.bottomAnchor="277.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="463.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="431.0" layoutY="653.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="138.0" style="-fx-background-color: linear-gradient(from 100.0% 0.0% to 100.0% 100.0%, #707b94 0.0%, #707b94 0.6729%, #515a6b 23.67%, #3a4151 44.2799%, #3a414f 59.6652%, #515a6b 82.7351%, #6e7a91 100.0%);" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="200.0" layoutY="226.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #303952; -fx-background-radius: 30; -fx-border-width: 4; -fx-border-color: linear-gradient(from 96.9582% 0.0% to 96.9582% 66.1597%, #526f9c 0.0%, #526f9c 0.6729%, #4a658c 21.8147%, #223048 100.0%); -fx-border-radius: 30;" text="Add Items" textFill="WHITE" AnchorPane.leftAnchor="200.0">
+         <font>
+            <Font name="Trebuchet MS Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
